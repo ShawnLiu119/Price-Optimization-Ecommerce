@@ -11,4 +11,4 @@ math hypothesis in the backend
 
 ## Hypothesis 2 - Purchase Probability Prediction (ML classcification) + Profit Optimization (Operation Research)
 
-
+Unfortunately Gekko does not currently support xgboost or other tree-based methods. Because the back-end solvers use gradient descent based methods, the decision functions of models need to be diffentiable and rewritable with Gekko variables. So far, Gaussian process regression, support vector regression, linear regression, and neural networks have been integrated into Gekko: https://gekko.readthedocs.io/en/latest/ml.html. 
